@@ -78,6 +78,9 @@
   <div class="article_title">
     <h1><a href="/understanding-permissions-umask/">Understanding Permissions With umask</a></h1>
   </div>
+  <div class="article_author">
+    <p><strong>By: <a href=/author/Peeyush_Gupta.html>Peeyush_Gupta</a></strong></p>
+  </div>
   <div class="article_text">
     <p>Linux was developed as a multi-user system. One big problem with multi-user systems is securing information of a particular user from other users. To do that, a concept of permissions was introduced. When you create a file, you have the right to read and write it. In this article we are going to understand how these permissions are handled.</p>
 <p>A user can read from a file, write into it or execute it (if it’s executable). These actions are represented by r for read, w for write and x for executable. Now, there are three type of actors in play in the system, first is user, second is the group the user belongs to and the third is everyone else. Hence, the permissions are in the form of three digits. The default permissions for a file are 666 (i.e. -rw-rw-rw-) and for directory they are 777 ( i.e. drwxrwxrwx). Here the x for directory means search permissions and d in the start indicated it’s a directory.</p>
@@ -107,6 +110,17 @@
       <a href="/tag/file-permissions.html">file permissions</a>,      <a href="/tag/linux.html">linux</a>,      <a href="/tag/linux-filesystem.html">Linux Filesystem</a>,      <a href="/tag/umask.html">umask</a>    </p>
   </div>
 
+  <div id="article_comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_identifier = "understanding-permissions-umask/";
+        (function() {
+             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+             dsq.src = '//thegeekyway.com.disqus.com/embed.js';
+             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+         })();
+    </script>
+  </div>
 
 </article>
 
