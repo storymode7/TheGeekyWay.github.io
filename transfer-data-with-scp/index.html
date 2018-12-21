@@ -204,17 +204,19 @@
       <a href="/tag/encryption.html">encryption</a>,      <a href="/tag/file-transfer.html">file transfer</a>,      <a href="/tag/scp.html">SCP</a>    </p>
   </div>
 
-  <div id="article_comments">
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-        var disqus_identifier = "transfer-data-with-scp/";
-        (function() {
-             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-             dsq.src = '//thegeekyway.com.disqus.com/embed.js';
-             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-         })();
-    </script>
-  </div>
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = "thegeekyway.com/transfer-data-with-scp/";
+      this.page.identifier = "transfer-data-with-scp/";
+    };
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://thegeekyway.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+  </script>
 
 </article>
 

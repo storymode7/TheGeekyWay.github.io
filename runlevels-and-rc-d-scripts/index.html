@@ -242,17 +242,19 @@ ln -s &#39;/usr/lib/systemd/system/multi-user.target&#39; &#39;/etc/systemd/syst
       <a href="/tag/initd.html">initd</a>,      <a href="/tag/linux.html">linux</a>,      <a href="/tag/runlevel.html">runlevel</a>    </p>
   </div>
 
-  <div id="article_comments">
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-        var disqus_identifier = "runlevels-and-rc-d-scripts/";
-        (function() {
-             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-             dsq.src = '//thegeekyway.com.disqus.com/embed.js';
-             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-         })();
-    </script>
-  </div>
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = "thegeekyway.com/runlevels-and-rc-d-scripts/";
+      this.page.identifier = "runlevels-and-rc-d-scripts/";
+    };
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://thegeekyway.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+  </script>
 
 </article>
 
