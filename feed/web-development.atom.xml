@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>The Geeky Way - Techonology Inside Out - Web Development</title><link href="//thegeekyway.com/" rel="alternate"></link><link href="//thegeekyway.com/feed/web-development.atom.xml" rel="self"></link><id>//thegeekyway.com/</id><updated>2017-11-30T08:20:00+05:30</updated><entry><title>Have you ever heard of OG-TAGS?</title><link href="//thegeekyway.com/have-you-ever-heard-of-og-tags/" rel="alternate"></link><published>2017-11-30T08:20:00+05:30</published><updated>2017-11-30T08:20:00+05:30</updated><author><name>storymode7</name></author><id>tag:thegeekyway.com,2017-11-30:/have-you-ever-heard-of-og-tags/</id><summary type="html">&lt;p&gt;Ever noticed how Facebook shows an excerpt from a website with its image, or how a tweet with just a URL changes into a short window to the actual website? It's because of og-tags. Let's understand more about it!&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The Geeky Way - Web Development</title><link href="//thegeekyway.com/" rel="alternate"></link><link href="//thegeekyway.com/feed/web-development.atom.xml" rel="self"></link><id>//thegeekyway.com/</id><updated>2017-11-30T08:20:00+05:30</updated><entry><title>Have you ever heard of OG-TAGS?</title><link href="//thegeekyway.com/have-you-ever-heard-of-og-tags/" rel="alternate"></link><published>2017-11-30T08:20:00+05:30</published><updated>2017-11-30T08:20:00+05:30</updated><author><name>storymode7</name></author><id>tag:thegeekyway.com,2017-11-30:/have-you-ever-heard-of-og-tags/</id><summary type="html">&lt;p&gt;Ever noticed how Facebook shows an excerpt from a website with its image, or how a tweet with just a URL changes into a short window to the actual website? It's because of og-tags. Let's understand more about it!&lt;/p&gt;
 &lt;!--more--&gt;
 
 &lt;div style="text-align:center"&gt;
@@ -25,7 +25,7 @@
 &lt;p&gt;Now, Let's see some of the details, how it works, basic syntax etc.&lt;/p&gt;
 &lt;p&gt;It's based on &lt;a href="https://en.wikipedia.org/wiki/RDFa"&gt;RDFa: Resource Description Framework in attributes.&lt;/a&gt; Hence, it uses metadata from a page to turn them into these graph objects. You can think of object as the website being displayed, and Graph as the small summary style window created using og-tags. And for it, &lt;code&gt;&amp;lt;meta&amp;gt;&lt;/code&gt; tags are required. In each meta tag, a property can be specified. A sample og tag might look like :&lt;/p&gt;
 &lt;p&gt;For Facebook:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&amp;lt;meta property=&amp;quot;og:title&amp;quot; content=&amp;quot; The Geeky Way&amp;quot;/&amp;gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;meta&lt;/span&gt; &lt;span class="n"&gt;property&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="ss"&gt;&amp;quot;og:title&amp;quot;&lt;/span&gt; &lt;span class="n"&gt;content&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="ss"&gt;&amp;quot; The Geeky Way&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;/&amp;gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -34,7 +34,7 @@
 &lt;/div&gt;
 
 &lt;p&gt;For Twitter:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&amp;lt;meta name=&amp;quot;twitter:title&amp;quot; content=&amp;quot;The Geeky Way&amp;quot;/&amp;gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;meta&lt;/span&gt; &lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="ss"&gt;&amp;quot;twitter:title&amp;quot;&lt;/span&gt; &lt;span class="n"&gt;content&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="ss"&gt;&amp;quot;The Geeky Way&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;/&amp;gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
